@@ -1,0 +1,78 @@
+
+.contentdemoBasicUsage div.demo-content { height: 450px; }
+.contentdemoBasicUsage div[ng-controller] { height: 100%;padding-bottom: 15px; }
+.contentdemoBasicUsage md-content { padding: 24px; }
+.inputdemoIcons .inputIconDemo { min-height: 48px; }
+.inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.email { color: green; }
+.inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.name { color: dodgerblue; }
+.inputdemoIcons md-input-container.md-input-invalid > md-icon.email,
+.inputdemoIcons md-input-container.md-input-invalid > md-icon.name { color: red; }
+.tabsdemoDynamicHeight md-content { background-color: transparent !important; }
+.tabsdemoDynamicHeight md-content md-tabs { background: #f6f6f6;border: 1px solid #e1e1e1; }
+.tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper { background: white; }
+.tabsdemoDynamicHeight md-content h1:first-child { margin-top: 0; }
+.btn1 { background-color: rgb(255,87,34); }
+.header-material {
+background-image: url('https://www.socwall.com/images/wallpapers/36618-1920x1200.jpg') !important;
+background-position: 100% 50% !important; 
+color: #000 !important; height: 300px; }
+
+
+.progressLineardemoBasicUsage body {
+  padding: 20px; }
+
+.progressLineardemoBasicUsage h4 {
+  margin: 10px 0; }
+
+.progressLineardemoBasicUsage md-progress-linear {
+  padding-top: 10px;
+  margin-bottom: 20px; }
+
+.progressLineardemoBasicUsage #loaders > md-switch {
+  margin: 0;
+  margin-left: 10px;
+  margin-top: -10px; }
+
+.progressLineardemoBasicUsage #loaders > h5 {
+  margin-top: 0; }
+
+.progressLineardemoBasicUsage #loaders > p {
+  margin-right: 20px;
+  margin-bottom: 24px; }
+
+.progressLineardemoBasicUsage p.small {
+  font-size: 0.8em;
+  margin-top: -18px; }
+
+.progressLineardemoBasicUsage hr {
+  width: 100%;
+  margin-top: 20px;
+  border-color: rgba(221, 221, 177, 0.1); }
+
+.progressLineardemoBasicUsage p.small > code {
+  font-size: 0.8em; }
+
+.progressLineardemoBasicUsage .visible {
+  opacity: 0;
+  border: 2px solid white !important; }
+
+.progressLineardemoBasicUsage .container {
+  display: block;
+  position: relative;
+  width: 100%;
+  border: 2px solid #aad1f9;
+  transition: opacity  0.1s linear;
+  border-top: 0px; }
+
+.progressLineardemoBasicUsage .bottom-block {
+  display: block;
+  position: relative;
+  background-color: rgba(255, 235, 169, 0.25);
+  height: 85px;
+  width: 100%; }
+
+.progressLineardemoBasicUsage .bottom-block > span {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 25px;
+  font-size: 0.9em; }
